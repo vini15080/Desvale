@@ -1,0 +1,133 @@
+/* FONTES */
+@font-face{
+    font-family: GothamMedium;
+    src: url(../fonts/GothamMedium.otf)
+}
+
+@font-face {
+    font-family: GothamBook;
+    src: url(../fonts/GothamBookRegular.otf);
+}
+
+body{
+
+    font-family: 'GothamMedium', Helvetica, Arial;
+    font-size: 14px;
+    margin: 0;
+}
+/* HEARDER*/
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+   align-items: center;
+   position: fixed;
+   left: 0;
+   right: 0%;
+   top: 0;
+}
+header ul, header li{
+    list-style: none;
+}
+.logo {
+    width: 120px;
+    margin left : 20px;
+}
+.middle ul{
+    display: flex;
+}
+
+.middle li {
+    margin: 0 10px;
+
+}
+
+.middle a{
+
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.rightside ul{
+    display: flex; 
+    
+}
+.rightside li {
+
+    margin: 0 10px;
+}
+.rightside a{
+ 
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+.menu--icon{
+
+    width: 18px;
+    height: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.menu--icon div{
+    height: 2px;
+    background-color: black;
+}
+
+/* main */ 
+main{
+    background-image: url(../images/bg.jpg);
+    background-size:cover;
+    background-position: center;
+    height: 100vh;
+
+}
+.info{
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+main h1{
+    margin: 0;
+    font-size: 40px;
+    font-weight: normal;
+    color: #393c41;
+}
+main h2{
+    margin: 0%;
+    font-size: 14px;
+    font-weight: normal;
+    font-family: GothamBook,  Helvetica, Arial ;
+    color: #6E7378;
+}
+main h2 a {
+    color: #393c41;
+
+}
+
+footer{
+position: fixed;
+left: 0;
+bottom: 30px;
+right: 0;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+.buttons a {
+
+    display: block;
+    width: 220px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.btn--darck{
+    
+}
